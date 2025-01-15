@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Helix demo</title>
+    <meta charset="utf-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/jquery-ui.css" />
+  </head>
+
+  <body class="container">
+
+
+    <h4>Helix demo</h4>
+
+    <p id="info">Page not initialized.</p>
+
+    <div class="halo_grid">
+      <div class="dot_cloud" id="dot_cloud">
+          dot_cloud here
+      </div>
+      <div class="controls" id="controls">
+        <div id="roughnessSlider"></div>
+        <div id="metalnessSlider"></div>
+        <div id="ambientSlider"></div>
+        <div>
+            <div>color</div>
+            <div>
+                <input type=text id="colorInput"/>
+                <button id="colorUpdate">update</button>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/three.min.js"></script>
+    <script src="./js/OrbitControls.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./fig3d.js"></script>
+    <script>
+      //load_file("json/Fake.json")
+      load_config("box.json");
+    </script>
+
+  </body>
+</html>
