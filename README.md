@@ -9,3 +9,9 @@ The source files for this web site and the data file you will use are in the "do
 
 <a href="./docs">./docs</a>
 
+Please see the Jupyter notebook
+
+<a href="./notebooks/Instructions.ipynb">./notebooks/Instructions.ipynb</a>
+
+For detailed instructions, comments, and hints.
+
