@@ -15,3 +15,10 @@ Please see the Jupyter notebook
 
 For detailed instructions, comments, and hints.
 
+## Questions?
+
+You can post questions in using the Github Issues feature of the repository.
+Answers to common questions will be compiled in the FAQ notebook here:
+
+<a href="./notebooks/Frequently_Asked_Questions.ipynb">./notebooks/Frequently_Asked_Questions.ipynb</a>
+
